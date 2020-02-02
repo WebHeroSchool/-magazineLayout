@@ -3,35 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Magazine Layout</title>
-	<style type="text/css">
-		body {margin:0px;
-		}
-		 header, article{
-		    font-family: sans-serif;
-		}
-		#leftSide section{
-			margin-left: 160px;
-		}
-		#leftSide p{
-			width:480px;
-			text-align:justify;
-		}
-		#leftSide, #rightSide{
-			display: inline-block;
-		}
-		#leftSide{
-			padding:0px 24px;
-			/*width: 65%;*/
-			/*background: cadetblue;*/
-		}
-		#rightSide{
-			margin-left:8px;
-			padding:0px 16px;
-			width: 20%;
-			position: absolute;
-			background: #eae6ad;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	
@@ -67,6 +39,7 @@
         </article>
       </section>
 </div>
+
 <div id='rightSide'>
 	<section>
         <article>
@@ -74,39 +47,86 @@
           	<br><br><br>
             <nav><b>FÊTES POPULAIRES</b> <br>
             	<small><a>Cavalcada de Reis, <b>5 janvier</b>. Ordino et la Massana </a></small><br>
-				<small><a>Escudella Sant Antoni, <b>17 janvier</b>. La Massana </a></small><br>
-				<small><a>Carnestoltes, <b>février</b>. Ordino et la Massana </a></small><br>
-				<small><a>Revetla de Sant Joan, <b>23 juin</b>. Ordino et la Massana </a></small><br>
-				<small><a>Sant Pere, <b>29 juin</b>. Ordino </a></small><br>
-				<small><a>Castanyada, <b>31 octobre</b>. Ordino et la Massana </a></small><br>
-				<small><a>Festa de Sant Iscle i Santa Victòria, <b>17 novembre</b> La Massana </a></small><br>
-				<small><a>Sant Andreu d'Arinsal, <b>30 novembre</b> Arinsal </a></small><br>
-					<br>
-				<b>FÊTES PATRONALES</b> <br>
-				<small><a>Sispony, <b>24 juin</b> Sant Joan </a></small><br>
-				<small><a>Pal, <b>dernier samedi de juin</b> </a></small><br>
-				<small><a>El Serrat, <b>29 juin</b> Saint Pierre </a></small><br>
-				<small><a>Roser d'Ordino, <b>premier week-end de juillet</b> </a></small><br>
-				<small><a>Anyós. Sant Cristòfol, <b>10 juillet</b> </a></small><br>
-				<small><a>Roser de la Massana, <b>deuxième dimanche de juillet</b> </a></small><br>
-				<small><a>Erts, <b>troisième dimanche de juillet</b> </a></small><br>
-				<small><a>Llorts, <b>premier week-end d'août</b> </a></small><br>
-				<small><a>L'Aldosa, <b>deuxième dimanche d'août</b> </a></small><br>
-				<small><a>La Massana. L'Assumpció, <b>15 août</b> </a></small><br>
-				<small><a>La Massana. Sant Roc, <b>16 août</b> </a></small><br>
-				<small><a>Sornàs, <b>16 août</b> </a></small><br>
-				<small><a>Arinsal, <b>avant-dernier week-end d'août</b> </a></small><br>
-				<small><a>La Cortinada et Arans, <b>premier week-end de septembre</b> </a></small><br>
-				<small><a>Ordino, <b>16 septembre</b> </a></small><br>
-				<small><a>Ansalonga, <b>29 septembre</b> </a></small><br>
-					<br>
-				<b>FÊTES NATIONALES</b> <br>
-				<small><a>Diada de la Constitució, <b>14 mars</b> </a></small><br>
-				<small><a>Dada de Nostra Senyora de Meritxell, <b>8 septembre</b></a></small><br>
-				<br>
+      				<small><a>Escudella Sant Antoni, <b>17 janvier</b>. La Massana </a></small><br>
+      				<small><a>Carnestoltes, <b>février</b>. Ordino et la Massana </a></small><br>
+      				<small><a>Revetla de Sant Joan, <b>23 juin</b>. Ordino et la Massana </a></small><br>
+      				<small><a>Sant Pere, <b>29 juin</b>. Ordino </a></small><br>
+      				<small><a>Castanyada, <b>31 octobre</b>. Ordino et la Massana </a></small><br>
+      				<small><a>Festa de Sant Iscle i Santa Victòria, <b>17 novembre</b> La Massana </a></small><br>
+      				<small><a>Sant Andreu d'Arinsal, <b>30 novembre</b> Arinsal </a></small><br>
+      					<br>
+      				<b>FÊTES PATRONALES</b> <br>
+      				<small><a>Sispony, <b>24 juin</b> Sant Joan </a></small><br>
+      				<small><a>Pal, <b>dernier samedi de juin</b> </a></small><br>
+      				<small><a>El Serrat, <b>29 juin</b> Saint Pierre </a></small><br>
+      				<small><a>Roser d'Ordino, <b>premier week-end de juillet</b> </a></small><br>
+      				<small><a>Anyós. Sant Cristòfol, <b>10 juillet</b> </a></small><br>
+      				<small><a>Roser de la Massana, <b>deuxième dimanche de juillet</b> </a></small><br>
+      				<small><a>Erts, <b>troisième dimanche de juillet</b> </a></small><br>
+      				<small><a>Llorts, <b>premier week-end d'août</b> </a></small><br>
+      				<small><a>L'Aldosa, <b>deuxième dimanche d'août</b> </a></small><br>
+      				<small><a>La Massana. L'Assumpció, <b>15 août</b> </a></small><br>
+      				<small><a>La Massana. Sant Roc, <b>16 août</b> </a></small><br>
+      				<small><a>Sornàs, <b>16 août</b> </a></small><br>
+      				<small><a>Arinsal, <b>avant-dernier week-end d'août</b> </a></small><br>
+      				<small><a>La Cortinada et Arans, <b>premier week-end de septembre</b> </a></small><br>
+      				<small><a>Ordino, <b>16 septembre</b> </a></small><br>
+      				<small><a>Ansalonga, <b>29 septembre</b> </a></small><br>
+      				  <br>
+      				<b>FÊTES NATIONALES</b> <br>
+      				<small><a>Diada de la Constitució, <b>14 mars</b> </a></small><br>
+      				<small><a>Dada de Nostra Senyora de Meritxell, <b>8 septembre</b></a></small><br>
+				        <br>
       		</nav>
           </aside>
         </article>
+      </section>
+</div>
+	<hr>
+<div id='secondPage'>
+	<header>
+  	<br>
+  	<br>
+    <h1>La magie des villages</h1>
+  </header>
+  <br><br><br><br>
+      <section>
+        <article>
+          <div id='leftText' align="right">
+            <big><b>La Massana</b></big>
+            <br>
+            <b>Tradition et modernité</b>
+            <p><small>Possédant un moderne complexe touristique et culturel en contraste avec les constructions les plus traditionnelles. Les habitants de la Massana, les "massanencs", sont des gens à la fois dynamiques et innovateurs, qualités qui se reflètent dans la va- riété des propositions de loisirs. Si vous séjournez à la Massana, il vous suffira d'emprunter le télécabine qui vous conduira jusqu'à Vallnord (secteur Pal).</small></p>
+          </div>
+          <div id='rightImg'>
+            <img src="img/1.jpg">
+          </div>
+        </article>
+        <br>
+        <article>
+          <div id='leftText' align="right">
+            <big><b>Anyós</b></big>
+            <br>
+            <b>Beau et majestueux</b>
+            <p><small>Impressionnante, la vue de la chapelle de Sant Cristòfol perchée sur un piton rocheux. Telle est la carte de présentation d'un petit village traditionnel d'agriculteurs, d'une tranquillité et d'une élégance qui le rendent tout à fait spécial.</small></p>
+          </div>
+          <div id='rightImg'>
+            <img src="img/2.jpg">
+          </div>
+        </article>
+        <br>
+        <article>
+          <div id='leftText' align="right">
+            <big><b>L'Aldosa</b></big>
+            <br>
+            <b>Un endroit à la fois pittoresque et ensoleillé</b>
+            <p><small>Le lieu par excellence des contrastes chromati- ques. Si vous aimez les paysages, vous dé- couvrirez, lors de vos promenades à pied ou à cheval, les plus diverses sensations.</small></p>
+          </div>
+          <div id='rightImg'>
+            <img src="img/3.jpg">
+          </div>
+        </article>
+        <br>
       </section>
 </div>
 
