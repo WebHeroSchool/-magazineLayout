@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Reforma Grotesk Bold';
+src: url('ReformaGroteskBoldC.eot');
+src: url('ReformaGroteskBoldC.eot?#iefix') format('embedded-opentype'),
+url('ReformaGroteskBoldC.woff') format('woff'),
+url('ReformaGroteskBoldC.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+header {
+	/* display: flex; */
+}
+header img {
+	height: 400px;
+	display: block;
+}
+header h1{
+	font-family: 'Reforma Grotesk Bold';
+}
+
+.marginAuto{
+	margin: auto;
+}
+
+.alignCenter{
+    text-align: center;
+}
