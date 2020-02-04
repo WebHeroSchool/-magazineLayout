@@ -1,30 +1,24 @@
-body {
-	margin:0px;
+@font-face {
+font-family: 'Reforma Grotesk Bold';
+src: url('ReformaGroteskBoldC.eot');
+src: url('ReformaGroteskBoldC.eot?#iefix') format('embedded-opentype'),
+url('ReformaGroteskBoldC.woff') format('woff'),
+url('ReformaGroteskBoldC.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }
-header, article{
-	font-family: sans-serif;
+header {
+	/* display: flex; */
 }
-#leftSide section/*, #secondPage section*/{
-	margin-left: 160px;
+header img {
+	height: 400px;
+	display: block;
 }
-#leftSide p{
-	width:480px;
-	text-align:justify;
-}
-#leftSide, #rightSide, #leftText, #rightImg{
-	display: inline-block;
-}
-#leftSide, #secondPage{
-	padding:0px 24px;
-}
-#rightSide{
-	margin-left:8px;
-	padding:0px 16px;
-	width: 320px;
-	position: absolute;
-	background: #eae6ad;
+header h1{
+	font-family: 'Reforma Grotesk Bold';
 }
 
+<<<<<<< HEAD
 /*secondPage:*/
 #leftText{
 	background: #eae6ad;
@@ -35,10 +29,12 @@ header, article{
 }
 #leftText p{
 	margin: 0;
+=======
+.marginAuto{
+	margin: auto;
+>>>>>>> fbe30feca44ad43b3842afb11d23ba17e41675c2
 }
-#rightImg img{
-	width: 720px;
-	height: 216px;
-	position: inherit;
-	margin-left: 352px;
+
+.alignCenter{
+    text-align: center;
 }
