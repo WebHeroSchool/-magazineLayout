@@ -4,46 +4,49 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Семантическая верстка на примере рекламного плаката</title>
+		<!-- источник вдохновления:
+		<img src='https://i.ebayimg.com/images/g/lxkAAOSw7aNcfJPh/s-l1600.jpg'> -->
     </head>
     <body>
 		<div id='mainBorder'>
 			<main>
 				<article>
 					<header>
-						<h1>This is fabulous new <b>BMW Sports Coupe</b>.</h1>
+						<hgroup>
+							<h1>This is the fabulous new</h1>
+							<h2>BMW Sports Coupe.</h2>
+						</hgroup>
 					</header>
 					<section>
-						<p>It costs $5,100*.</p>
-						<p>It may be the best car you can buy <i>at any price</i>.</p>
+						<p class='paragraph'>It costs $5,100<small>*</small>.</p>
+						<p class='paragraph'>It may be the best car <wbr> you can buy <i>at any price</i>.</p>
 						<div class='wrapper flexCenter'>
 							<img src='img.jpg' alt='BMW 1967 2000 CS 2-door Coupe'>
 						</div>
-						<!-- <div class='wrapper paragraph'> -->
-							<p class='inlineBlock leftColumn'><em>Fantastic. From Germany's famed Bavarian Motor Works, a full-sized, four-passenger sports coupe that will corner with a Ferrari, accelerate with a Porsche, give you the de- pendability of a Mercedes and the work- manship of a Rolls-Royce.</em> You can drive it all day at speeds over 115 m.p.h. and not strain it in the slightest. You can drive it for hours on end and not feel fatigued. You can drive it over the roughest of country roads even at high speeds with the utmost security, thanks to its unique suspension system.</p>
-							<p class='inlineBlock positionAbsolute rightColumn'>It has the most advanced four- cylinder engine ever designed, and it may be ordered with the renowned ZF Automatic Transmission. Inside and out, it is finished to the highest standards of elegance. Many of the world's automotive experts believe that no other car offers this combination of qualities. You have to drive the BMW Coupe to believe it. But we warn you: once you do, you may never be satisfied with anything less, even if it costs more.</p>
-							<p class='inlineBlock rightColumn'><small>*Suggested retail price P.O.E. New York</small></p>
-						<!-- </div> -->
-							<figure class='inlineBlock positionAbsolute'>
-							<img class='logo' src='http://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19702.png' alt='BMW logo'>
-							<figcaption>
-							<b>For 50 years famous for the finest automotive products.</b>
-							<address>
-								Sole U. S. Importer Hoffman Motors Corporation.<br>
-								375 Park Avenue, New York, N.Y.; <br>
-								1862 S. La Cienega Blvd., Los Angeles, Calif.
-							</address>
-							</figcaption>
-							</figure>
+						<p class='inlineBlock leftColumn'><em>Fantastic. From Germany's famed Bavarian Motor Works, a full-sized, four-passenger sports coupe that will corner with a Ferrari, accelerate with a Porsche, give you the de- pendability of a Mercedes and the work- manship of a Rolls-Royce.</em> You can drive it all day at speeds over 115 m.p.h. and not strain it in the slightest. You can drive it for hours on end and not feel fatigued. You can drive it over the roughest of country roads even at high speeds with the utmost security, thanks to its unique suspension system.</p>
+						<p class='inlineBlock positionAbsolute rightColumn'>It has the most advanced four- cylinder engine ever designed, and it may be ordered with the renowned <em>ZF Automatic Transmission</em>. Inside and out, it is finished to the highest standards of elegance. Many of the world's automotive experts believe that no other car offers this combination of qualities. You have to drive the BMW Coupe to believe it. But we warn you: once you do, you may never be satisfied with anything less, even if it costs more.</p>
+						<p class='inlineBlock rightColumn'><small>*Suggested retail price P.O.E. New York</small></p>
+						<figure class='inlineBlock positionAbsolute'>
+						<img class='logo' src='http://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19702.png' alt='BMW logo'>
+						<figcaption>
+						<b>For 50 years famous for the finest automotive products.</b>
+						<address>
+							Sole U. S. Importer Hoffman Motors Corporation.<br>
+							375 Park Avenue, New York, N.Y.; <br>
+							1862 S. La Cienega Blvd., Los Angeles, Calif.
+						</address>
+						</figcaption>
+						</figure>
 					</section>
+				<footer>
+					<aside class='flexCenter flexTest'>
+						<b>Dealers coast to coast.</b> 
+						<b>Advantageous European Delivery Program.</b> 
+						<b>Write for free brochure.</b>
+					</aside>
+				</footer>
 				</article>
-				<aside>
-					<b>Dealers coast to coast.</b> 
-					<b>Advantageous European Delivery Program.</b> 
-					<b>Write for free brochure.</b>
-				</aside>
 			</main>	
 		</div>
-		<hr>
-		<img src='https://i.ebayimg.com/images/g/lxkAAOSw7aNcfJPh/s-l1600.jpg'>
     </body>
 </html>
