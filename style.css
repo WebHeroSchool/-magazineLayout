@@ -1,0 +1,27 @@
+/*Описание стилей для header / footer / main:*/
+body{
+	margin: 0;
+	}
+#mainBorder{
+	width: 1103px;
+	margin: auto;
+	background-image: url(patern.jpg);
+	border-width: 30px 30px;
+	border-style: solid;
+	border-color: #323232;
+	border-image: url(https://i.ebayimg.com/images/g/lxkAAOSw7aNcfJPh/s-l1600.jpg) 24 26 31 31 repeat;
+}
+header{
+	
+}
+main{
+	width: 1102px;
+}
+footer{
+	
+}
+
+/*Описание стилей для контента внутру main:*/
+.flexCenter{
+	flex-direction: row;display: flex;height: 100%;flex-wrap: nowrap;flex-flow: row nowrap;justify-content: center;
+}
