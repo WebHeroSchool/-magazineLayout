@@ -25,7 +25,7 @@ header h1, header h2, p.paragraph, p.paragraph i{
 	font-style: normal;
 }
 header h1, header h2, p.paragraph{
-	margin: 10px 32px;
+	margin: 14px 32px;
 }
 p.paragraph i{
 	border-bottom: solid 4px;
@@ -40,11 +40,14 @@ main{
 	width: 1102px;
 }
 aside{
-	margin-left: 48px;
-	margin-bottom: 64px;
-	font-family: sans-serif;
-	font-size: smaller;
-	width: 688px;
+	
+margin: 0 48px 64px;
+	
+font-family: sans-serif;
+	
+font-size: smaller;
+	
+width: 694px;
 }
 
 /*Описание стилей для контента внутру main:*/
@@ -60,7 +63,7 @@ div.wrapper{
 	flex-flow: row nowrap;
 	justify-content: center;
 }
-.flexTest{
+.flexSpaceBetween{
 	justify-content: space-between;
 }
 .positionAbsolute{
@@ -87,14 +90,18 @@ p.rightColumn{
 	margin-left:24px;
 }
 .logo{
-	padding: 0 32px;
+	padding: 0px 32px 24px;
 	width: 200px;
 }
 figure{
-	margin: -36px 24px;
+	margin: -11px 24px;
 }
 figcaption{
 	width: 257px;
 	text-align:justify;
 	font-size: smaller;
+}
+blockquote{
+	
+margin: 0;
 }
