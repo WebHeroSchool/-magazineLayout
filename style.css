@@ -15,7 +15,8 @@ header{
 	
 }
 main{
-	width: 1102px;
+	
+width: 1102px;
 }
 footer{
 	
@@ -24,4 +25,33 @@ footer{
 /*Описание стилей для контента внутру main:*/
 .flexCenter{
 	flex-direction: row;display: flex;height: 100%;flex-wrap: nowrap;flex-flow: row nowrap;justify-content: center;
+}
+.positionAbsolute{
+	position:absolute;
+}
+.inlineBlock{
+	display: inline-block;
+}
+p.inlineBlock{
+	width:320px;
+	text-align: justify;
+	margin: 24px 0;
+}
+
+p.leftColumn{
+	margin-left:48px;
+}
+p.rightColumn{
+	margin-left:24px;
+}
+.logo{
+	padding:0 24px;
+	width: 200px;
+}
+figure{
+	margin-top:-68px;
+}
+figcaption{
+	width:248px;
+	text-align:justify;
 }
