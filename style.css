@@ -1,5 +1,5 @@
 body {
-	margin:0px;
+	margin: 0px;
 }
 header, article{
 	font-family: sans-serif;
@@ -8,24 +8,24 @@ header, article{
 	margin-left: 160px;
 }
 #leftSide p{
-	width:480px;
-	text-align:justify;
+	width: 480px;
+	text-align: justify;
 }
 #leftSide, #rightSide, #leftText, #rightImg{
 	display: inline-block;
 }
 #leftSide, #secondPage{
-	padding:0px 24px;
+	padding: 0px 24px;
 }
 #rightSide{
-	margin-left:8px;
-	padding:0px 16px;
+	margin-left: 8px;
+	padding: 0px 16px;
 	width: 320px;
 	position: absolute;
 	background: #eae6ad;
 }
 
-/*secondPage:*/
+/* secondPage: */
 #leftText{
 	background: #eae6ad;
 	width: 320px;
@@ -41,4 +41,9 @@ header, article{
 	height: 216px;
 	position: inherit;
 	margin-left: 352px;
+}
+.link{
+  font-size: normal;
+  text-decoration: none;
+  color: black;
 }
