@@ -1,0 +1,49 @@
+body {
+	margin: 0px;
+}
+header, article{
+	font-family: sans-serif;
+}
+.leftSide section/*, .secondPage section*/{
+	margin-left: 160px;
+}
+.leftSide p{
+	width: 480px;
+	text-align: justify;
+}
+.leftSide, .rightSide, .leftText, .rightImg{
+	display: inline-block;
+}
+.leftSide, .secondPage{
+	padding: 0px 24px;
+}
+.rightSide{
+	margin-left: 8px;
+	padding: 0px 16px;
+	width: 320px;
+	position: absolute;
+	background: #eae6ad;
+}
+
+/* secondPage: */
+.leftText{
+	background: #eae6ad;
+	width: 320px;
+	height: 184px;
+	padding: 16px;
+	position: absolute;
+}
+.leftText p{
+	margin: 0;
+}
+.rightImg img{
+	width: 720px;
+	height: 216px;
+	position: inherit;
+	margin-left: 352px;
+}
+.link{
+  font-size: normal;
+  text-decoration: none;
+  color: black;
+}
