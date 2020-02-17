@@ -1,9 +1,13 @@
 body {
 	margin: 0px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 20px;
 }
-header, article{
-	font-family: sans-serif;
+
+.title {
+	font-family: 'Signika', sans-serif;
 }
+
 .leftSide section/*, .secondPage section*/{
 	margin-left: 160px;
 }
